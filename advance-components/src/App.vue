@@ -1,6 +1,6 @@
 <template>
   <h3>Hey</h3>
-  <Greeting />
+  <Greeting :age="age" @age-change="changeAge" />
   <User :age="age" />
 </template>
 
@@ -17,6 +17,11 @@ export default {
     return {
       age: 20,
     };
+  },
+  methods: {
+    changeAge(num) {
+      this.age += num;
+    },
   },
 };
 </script>
