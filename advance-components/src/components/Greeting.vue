@@ -7,7 +7,15 @@
 <script>
 export default {
   name: 'Greeting',
-  props: ['age'],
+  props: {
+    age: {
+      type: Number,
+      // required: true,
+      validator(value) {
+        return value < 130;
+      },
+    },
+  },
   emits: ['ageChange'],
   data() {
     return {
