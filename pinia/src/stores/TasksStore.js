@@ -21,4 +21,5 @@ export const useTaskStore = defineStore("task-store", {
       return state.tasks.length;
     },
   },
+  actions: {},
 });
