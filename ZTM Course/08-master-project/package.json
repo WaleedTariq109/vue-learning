@@ -1,0 +1,29 @@
+{
+  "name": "08-master-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@vee-validate/rules": "^4.5.7",
+    "firebase": "8.2.7",
+    "howler": "^2.2.3",
+    "vee-validate": "^4.5.7",
+    "vue": "^3.2.16",
+    "vue-i18n": "^9.2.0-beta.30",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.2.1",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "jest": "^27.4.3",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4"
+  }
+}
